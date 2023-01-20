@@ -1,7 +1,7 @@
 import {createElement} from '../render.js';
 
 function createTaskListTemplate() {
-  return '<div class="event"></div>';
+  return '<ul class="trip-events__list"></ul>';
 }
 
 export default class ListView {

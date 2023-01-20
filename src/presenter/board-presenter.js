@@ -9,6 +9,8 @@ import {render} from '../render.js';
 export default class BoartPresenter {
   boardComponent = new BoardView();
   taskListComponent = new ListView();
+  PointAddDistanceview = new PointAddDistanceview();
+  PointAdd = new PointAdd();
 
   constructor({boardContainer}) {
     this.boardContainer = boardContainer;
@@ -24,7 +26,8 @@ export default class BoartPresenter {
       render(new PointAddDistanceview(), this.taskListComponent.getElement());
     }
 
-    render(new PointAdd(), this.boardComponent.getElement());
+    render(new PointAdd(), this.taskListComponent.getElement());
   }
 
 }
+

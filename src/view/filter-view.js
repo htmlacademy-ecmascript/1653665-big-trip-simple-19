@@ -1,3 +1,4 @@
+
 import AbstractView from '../framework/view/abstract-view.js';
 
 function createFiltersTemplate(filter, currentFilterType) {
@@ -43,4 +44,5 @@ export default class FilterView extends AbstractView {
     evt.preventDefault();
     this.#handleFilterTypeChange(evt.target.value);
   };
+
 }

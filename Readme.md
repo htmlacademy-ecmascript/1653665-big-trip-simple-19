@@ -3,6 +3,7 @@
 * Студент: [Дмитрий Сенин](https://up.htmlacademy.ru/ecmascript/19/user/1653665).
 * Наставник: [Олег Зубов](https://htmlacademy.ru/profile/id42701).
 
+
 ---
 
 _Не удаляйте и не изменяйте папки и файлы:_
